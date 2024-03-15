@@ -7,5 +7,5 @@ res.setHeader('Content-Type', 'text/html');
 res.end('<h1>Hola Mundo</h1>');
 });
 server.listen(port, hostname, () => {
-console.log('El Servidor se está Ejecutando en http://${192.168.1.9}:${3000}/');
+console.log('El Servidor se está Ejecutando en http://${192.168.1.248}:${3000}/');
 });
